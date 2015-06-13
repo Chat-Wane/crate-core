@@ -1,0 +1,34 @@
+{
+    "name": "crate-core",
+    "version": "0.0.1",
+    "author": "Chat-Wane <grumpy.chat.wane@gmail.com>",
+    "description": "The core of CRATE: a [distributed and decentralized] CollaboRATive Editor.",
+    "main": "./lib/crate-core.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chat-wane/crate-core.git"
+    },
+    "keywords": [
+        "Distributed Collaborative Editor",
+        "Conflict-free Replicated Data Type",
+        "Adaptive Random Peer Sampling",
+        "Browser-to-browser Communication"
+    ],
+    "dependencies": {
+        "version-vector-with-exceptions": "0.0.x",
+        "causal-broadcast-definition": "0.0.x",
+        "spray-wrtc": "0.0.x",
+        "lseqtree": "0.1.x"
+    },
+    "bundledDependencies": [
+        "version-vector-with-exceptions",
+        "causal-broadcast-definition",
+        "spray-wrtc",
+        "lseqtree"
+    ],
+    "scripts":{
+        "debug": "browserify -r ./lib/crate-core.js:crate-core --debug > build/crate-core.bundle.debug.js",
+        "build": "browserify -r ./lib/crate-core.js:crate-core | uglifyjs > build/crate-core.bundle.js"
+    },
+    "license": "MIT"
+}
