@@ -18,7 +18,7 @@
         "version-vector-with-exceptions": "0.0.x",
         "causal-broadcast-definition": "0.0.x",
         "spray-wrtc": "0.0.x",
-        "lseqtree": "0.1.x"
+        "lseqtree": "0.2.x"
     },
     "bundledDependencies": [
         "version-vector-with-exceptions",
