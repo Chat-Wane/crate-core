@@ -90,7 +90,7 @@ if ( SIGNAL !== null ){
                 "; dup "+ (n.partialView.length()-n.sockets.length()) +
                 "; fwd "+ n.forwards.length() +
                 "; pnd " + n.pending.length();
-            signaling.emit("log", stringToLog);
+            //signaling.emit("log", stringToLog);
             randomLog();
         }, Math.ceil(Math.random()*LOG)); // 5 minutes maximum
     };
@@ -126,7 +126,7 @@ setTimeout(function(){
         var stringToLog = t+"; @peer "+n.ID+"; id "+
             JSON.stringify(freshId).length;
         signaling.emit("log", stringToLog);
-        console.log(s.length + " ; " + stringToLog)
+        //console.log(s.length + " ; " + stringToLog)
     }, INSERT);
 }, WAIT);
 
