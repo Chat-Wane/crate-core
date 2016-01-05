@@ -1,6 +1,6 @@
 {
     "name": "crate-core",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "author": "Chat-Wane <grumpy.chat.wane@gmail.com>",
     "description": "The core of CRATE: a [distributed and decentralized] CollaboRATive Editor.",
     "main": "./lib/crate-core.js",

@@ -1,6 +1,6 @@
 {
     "name": "crate-core",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "main": "build/crate-core.bundle.js",
     "ignore": [
         "lib/*"
