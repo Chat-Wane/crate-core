@@ -1,6 +1,6 @@
 {
     "name": "crate-core",
-    "version": "0.0.6",
+    "version": "0.0.8",
     "author": "Chat-Wane <grumpy.chat.wane@gmail.com>",
     "description": "The core of CRATE: a [distributed and decentralized] CollaboRATive Editor.",
     "main": "./lib/crate-core.js",
@@ -16,8 +16,8 @@
     ],
     "dependencies": {
         "version-vector-with-exceptions": "0.0.x",
-        "causal-broadcast-definition": "0.0.x",
-        "spray-wrtc": "0.0.x",
+        "causal-broadcast-definition": "0.1.x",
+        "spray-wrtc": "0.1.x",
         "lseqtree": "0.3.x"
     },
     "bundledDependencies": [
